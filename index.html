@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Nós</title>
+</head>
+
+<body>
+
+  <!-- Tela de login -->
+  <div id="loginScreen">
+    <h1>Bem-vinda!</h1>
+    <p>Digite a senha para entrar no site.</p>
+    <input type="password" id="senhaInput" placeholder="Senha" />
+    <button id="entrar" onclick="validarSenha()">Entrar</button>
+    <div id="errorMsg"></div>
+  </div>
+  <div>
+    <header id="menu">
+      <nav>
+        <ul>
+          <li><a href="#nos">Nós</a></li>
+          <li><a href="#playlist">Nossa Playlist</a></li>
+          <li><a href="#demim">De mim pra você</a> </li>
+        </ul>
+
+
+      </nav>
+    </header>
+
+
+    <div id="congrats"></div>
+
+    <!-- Conteúdo do site -->
+    <div id="conteudo">
+
+      <section id="nos">
+        <div id="entrada" style="display:none;">
+
+          <div class="slide active" style="background-image: url('./images/slides/começo.jpeg');"></div>
+          <div class="slide" style="background-image: url('./images/slides/ccbb.jpeg');"></div>
+          <div class="slide" style="background-image: url('./images/slides/madre.jpeg');"></div>
+          <div class="slide" style="background-image: url('./images/slides/junina.jpeg');"></div>
+          <div class="slide" style="background-image: url('./images/slides/fantasia.jpeg');"></div>
+          <div class="slide" style="background-image: url('./images/slides/casamento.jpeg');"></div>
+          <div class="slide" style="background-image: url('./images/slides/ccbb\ 2.jpeg');"></div>
+          <div class="slide" style="background-image: url('./images/slides/show\ raquel.jpeg');"></div>
+          <div class="slide" style="background-image: url('./images/slides/show\ terno.jpeg');"></div>
+          <div class="slide" style="background-image: url('./images/slides/voa.jpeg');"></div>
+          <div class="slide" style="background-image: url('./images/slides/precarnaval.jpeg');"></div>
+          <div class="slide" style="background-image: url('./images/slides/pés.jpeg');"></div>
+          <div class="slide" style="background-image: url('./images/slides/carnaval.jpeg');"></div>
+          <div class="slide" style="background-image: url('./images/slides/carteira.jpeg');"></div>
+          <div class="slide" style="background-image: url('./images/slides/goiania.jpeg');"></div>
+          <div class="slide" style="background-image: url('./images/slides/caju.jpeg');"></div>
+          <div class="slide" style="background-image: url('./images/slides/casanova.jpeg');"></div>
+          <div class="slide" style="background-image: url('./images/slides/máquina.jpeg');"></div>
+
+        </div>
+      </section>
+
+      <section id="playlist">
+        <h2>Nossa Playlist</h2>
+        <br>
+        <p>Aqui estão algumas das músicas que marcaram nosso relacionamento e que sempre me fazem lembrar de você.</p>
+        <br>
+        <iframe style="border-radius:12px"
+          src="https://open.spotify.com/embed/playlist/53HbZWhUz7vPsJxY5ZW5of?utm_source=generator" width="100%"
+          height="500" frameBorder="0" allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </section>
+
+      <section id="demim">
+        <h2>De mim pra você</h2>
+        <br>
+        <p class="lovetext">Oi meu amor!</p>
+        <br>
+        <p class="lovetext">Espero que tenha gostado da surpresa, fiz com todo carinho e amor.</p>
+        <br>
+        <p class="lovetext"> Você chegou de forma inesperada, sem fazer muito alarde, mas logo se instalou no meu coração. Quem diria que
+          aquela menina que eu achava que iria me dar um ghosting estaria morando comigo hoje? Nesse um ano, vivemos o
+          que parece ser uma vida inteira. Passamos por vários perrengues, mas também por muitos momentos de felicidade.
+          Devo dizer que, até nos perrengues, você conseguiu deixar tudo mais leve, sempre me dando amor e suporte. A
+          cada dia, tenho mais certeza de que quero viver todos os meus dias ao seu lado.
+        </p>
+        <p class="lovetext">Já vivemos muitas primeiras vezes nesse ano, e devo dizer que é muito especial tê-las com você. Mal posso
+          esperar para vivermos ainda mais: nossa primeira viagem, nossa primeira viagem internacional, nossa primeira
+          lava-louças e nosso primeiro robô aspirador (hahaha), e tantas outras que nem consigo listar aqui.</p>
+        <p class="lovetext">Construir uma vida ao seu lado tem sido incrível, e estou adorando saborear cada momento com você. Você, que
+          é tão determinada, inteligente, linda, legal, gostosa – e ainda é costureira, hahaha – tem tantas qualidades
+          que nem consigo descrever. Você se encaixa tão bem comigo e me faz tão feliz! Sempre me apoia, resolve o que
+          eu não consigo, sempre disposta a fazer tudo por mim — e como sou grata por isso. Também estou disposta a
+          fazer tudo por você.</p>
+        <p class="lovetext">Que venham muitos outros anos juntas para comemorarmos! Te amo demais, cada pedacinho seu. Amo viver ao seu
+          lado, amo compartilhar tudo com você, amo como nos fazemos rir, como nos aconchegamos uma na outra, como é
+          confortável ser eu mesma perto de você.</p>
+          <p class="lovetext">Obrigada por ser luz na minha vida. Obrigada por cuidar de mim como ninguém. Obrigada por ser você.</p>
+        <p class="lovetext">Do seu amor,</p>
+        <p class="lovetext">Isabella Wartha</p>
+      </section>
+    </div>
+
+    <div>
+      <h2>22.06.2025</h2>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
